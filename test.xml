@@ -1,0 +1,4 @@
+<class name = "resources.TestResource">
+    <name>MyName</name>
+    <age>35</age>
+</class>
