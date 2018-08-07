@@ -1,8 +1,11 @@
 package server;
 
+import resources.TestResource;
+
 public interface ResourceServerMBean {
 
-    String getName();
-    int getAge();
+    void setTestResource(TestResource testResource);
+    String getname();
+    int getage();
 
 }

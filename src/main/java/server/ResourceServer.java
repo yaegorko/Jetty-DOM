@@ -4,7 +4,7 @@ import resources.TestResource;
 
 public class ResourceServer implements ResourceServerMBean {
 
-    TestResource testResource;
+    private TestResource testResource;
 
     public void setTestResource(TestResource testResource) {
         this.testResource = testResource;
@@ -15,14 +15,12 @@ public class ResourceServer implements ResourceServerMBean {
     }
 
     @Override
-    public String getName() {
+    public String getname() {
         return testResource.getName();
     }
 
     @Override
-    public int getAge() {
+    public int getage() {
         return testResource.getAge();
     }
-
-
 }
